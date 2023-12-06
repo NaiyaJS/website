@@ -1,0 +1,40 @@
+#redtext{
+    color: black;
+}
+
+h1{
+
+    font-family: 'Sofia';
+    font-size: 30px;
+}
+
+
+a:visited{
+    text-decoration: none;
+    color: green;
+}
+
+a:link{
+    color: black;
+}
+/*
+experiment with pseudo-class active
+*/
+
+a:hover{
+    color: pink;
+}
+
+span{
+   color: red;
+}
+
+ul{
+    
+}
+
+.img-container{
+    display: flex; 
+    gap: 5px;
+    flex-direction: column;
+}
